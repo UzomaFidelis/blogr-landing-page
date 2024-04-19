@@ -3,8 +3,6 @@ import Menu from "./Menu";
 import logo from "./assets/images/logo.svg";
 import closeBtn from "./assets/images/icon-close.svg";
 import hamburger from "./assets/images/icon-hamburger.svg";
-import backgroundMobile from "./assets/images/bg-pattern-intro-mobile.svg";
-import backgroundDesktop from "./assets/images/bg-pattern-intro-desktop.svg";
 
 const Heading = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -31,13 +29,7 @@ const Heading = () => {
 
   return (
     <header className="bg-gradient-to-r from-veryLightRed to-lightRed overflow-hidden rounded-bl-[6.3rem] ">
-      <div
-        className="px-6 py-14 bg-[image:var(--img-mobile)] bg-no-repeat bg-[position:left_-80vw_top_-24vh] bg-[length:1200px] lg:px-[9rem] 2xl:px-[10.5rem] lg:pb-12 lg:bg-[image:var(--img-desktop)] lg:bg-[right_-40vw_bottom_-130vh] lg:bg-[length:2200px] "
-        style={{
-          "--img-mobile": `url(${backgroundMobile})`,
-          "--img-desktop": `url(${backgroundDesktop})`,
-        }}
-      >
+      <div className="px-6 py-14 bg-headingbg-mobile bg-no-repeat bg-[position:left_-350px_top_-300px] bg-[length:1200px] lg:px-[9rem] 2xl:px-[10.5rem] lg:pb-12 lg:bg-headingbg-desktop lg:bg-[right_-800px_bottom_-1050px] lg:bg-[length:2700px] ">
         <div className="flex flex-row justify-between items-center lg:justify-normal lg:gap-24">
           <img
             src={logo}

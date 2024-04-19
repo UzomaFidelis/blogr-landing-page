@@ -24,6 +24,17 @@ export default {
         sm: "500px",
         "2xl": "1440px",
       },
+      backgroundImage: {
+        "headingbg-mobile":
+          "url('/src/assets/images/bg-pattern-intro-mobile.svg')",
+        "headingbg-desktop":
+          "url('/src/assets/images/bg-pattern-intro-desktop.svg')",
+        "editor-desktop":
+          "url('/src/assets/images/illustration-editor-desktop.svg')",
+        "laptop-desktop":
+          "url('/src/assets/images/illustration-laptop-desktop.svg')",
+        "pattern-circle": "url('/src/assets/images/bg-pattern-circles.svg')",
+      },
     },
   },
   plugins: [],
