@@ -1,12 +1,10 @@
+import logo from "./assets/images/logo.svg";
+
 const Footer = () => {
   return (
     <div className="bg-veryDarkGrayBlue flex flex-col pt-[4.7rem] pb-14 rounded-tr-[6rem] text-white font-ubuntu lg:flex-row lg:pt-[4.2rem] lg:pb-20">
       <div className="text-center flex justify-center pb-[3.7rem] lg:basis-[20rem] lg:pl-24">
-        <img
-          src="./src/assets/images/logo.svg"
-          alt="logo"
-          className="w-[6.1rem] lg:h-[2.5rem]"
-        />
+        <img src={logo} alt="logo" className="w-[6.1rem] lg:h-[2.5rem]" />
       </div>
       <div className="lg:flex lg:justify-around lg:flex-1 lg:pr-56">
         <div className="py-4 lg:py-0">
