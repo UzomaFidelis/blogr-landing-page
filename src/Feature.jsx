@@ -6,7 +6,7 @@ const Feature = () => {
   return (
     <main>
       <div
-        className={`font-overpass pt-[6.17rem] pb-[5.8rem] flex flex-col justify-center lg:pt-[9rem] lg:pb-[6.2rem] lg:bg-editor-desktop lg:bg-no-repeat lg:bg-[position:right_-35vw_top_4vh] lg:bg-[length:923px] xl:bg-[position:right_-30vw_top_4vh] 2xl:bg-[position:right_-20vw_top_2.1vh]`}
+        className={`font-overpass pt-[6.17rem] pb-[5.8rem] flex flex-col justify-center lg:pt-[9rem] lg:pb-[6.2rem] lg:bg-editor-desktop lg:bg-no-repeat lg:bg-[position:right_-35vw_top_150px] lg:bg-[length:923px] xl:bg-[position:right_-30vw_top_70px] 2xl:bg-[position:right_-19vw_top_70px]`}
       >
         <h2 className="text-[1.67rem] text-veryDarkGrayBlue font-semibold tracking-[-0.01em] lg:mt-2 lg:text-[2.3rem]">
           Designed for the future
@@ -64,7 +64,7 @@ const Feature = () => {
           </div>
         </div>
         <div
-          className={`lg:flex lg:pt-[17rem] lg:pb-[5.8rem] lg:bg-laptop-desktop lg:bg-no-repeat lg:bg-[position:-36vw_140px] lg:bg-[length:px] xl:bg-[position:-24vw_140px] 2xl:bg-[position:-20vw_3.5vh]`}
+          className={`lg:flex lg:pt-[17rem] lg:pb-[5.8rem] lg:bg-laptop-desktop lg:bg-no-repeat lg:bg-[position:-36vw_140px] lg:bg-[length:px] xl:bg-[position:-24vw_140px] 2xl:bg-[position:-20vw_120px]`}
         >
           <div className="mt-[3.5rem] mb-[1.6rem] max-w-full h-[23rem] relative overflow-hidden sm:h-[30rem] lg:basis-[50%]">
             <img
