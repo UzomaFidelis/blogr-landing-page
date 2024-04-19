@@ -47,7 +47,10 @@ const Feature = () => {
         </div>
       </div>
       <div className="relative lg:flex lg:mt-[16rem] lg:bg-veryDarkGrayBlue lg:rounded-bl-[6rem] lg:rounded-tr-[6rem]">
-        <div className="absolute w-full top-[5.1rem] h-[23rem] lg:top-0 lg:relative lg:basis-[50%] lg:bg-[url('./src/assets/images/bg-pattern-circles.svg')] lg:bg-no-repeat lg:bg-[position:center_-500px] lg:h-auto">
+        <div
+          className="absolute w-full top-[5.1rem] h-[23rem] lg:top-0 lg:relative lg:basis-[50%] lg:bg-[image:var(--img-url)] lg:bg-no-repeat lg:bg-[position:center_-500px] lg:h-auto"
+          style={{ "--img-url": `url(${patternCircle})` }}
+        >
           <img
             src={phoneIllustration}
             alt="phone illustration"
