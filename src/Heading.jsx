@@ -30,7 +30,7 @@ const Heading = () => {
   }, [isOpen]);
 
   return (
-    <header className="bg-gradient-to-r from-veryLightRed/[0.85] to-lightRed/[0.85] overflow-hidden rounded-bl-[6.3rem] ">
+    <header className="bg-gradient-to-r from-veryLightRed/[0.7] to-lightRed/[0.7] overflow-hidden rounded-bl-[6.3rem] ">
       <div
         className="px-6 py-14 bg-[image:var(--img-mobile)] bg-no-repeat bg-[position:left_-80vw_top_-24vh] bg-[length:1200px] lg:px-[9rem] 2xl:px-[10.5rem] lg:pb-12 lg:bg-[image:var(--img-desktop)] lg:bg-[right_-40vw_bottom_-130vh] lg:bg-[length:2200px] "
         style={{
