@@ -1,5 +1,6 @@
 import { useSpring, animated } from "@react-spring/web";
 import { useState } from "react";
+import arrowDark from "./assets/images/icon-arrow-dark.svg";
 
 // eslint-disable-next-line react/prop-types
 const Menu = ({ open }) => {
@@ -47,7 +48,7 @@ const Menu = ({ open }) => {
                 Connect
               </a>
               <animated.img
-                src="./src/assets/images/icon-arrow-dark.svg"
+                src={arrowDark}
                 className="inline ml-2 cursor-pointer transition-transform lg:hidden"
                 onClick={toggleConnectMenu}
                 style={arrowIconAnimation}

@@ -1,5 +1,8 @@
 import { useState, useEffect, useRef } from "react";
 import Menu from "./Menu";
+import logo from "./assets/images/logo.svg";
+import closeBtn from "./assets/images/icon-close.svg";
+import hamburger from "./assets/images/icon-hamburger.svg";
 
 const Heading = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,22 +30,18 @@ const Heading = () => {
   return (
     <header className="bg-lightRed px-6 py-14 overflow-hidden rounded-bl-[6.3rem] lg:px-[9rem] 2xl:px-[10.5rem]  lg:pb-12">
       <div className="flex flex-row justify-between items-center lg:justify-normal lg:gap-24">
-        <img
-          src="./src/assets/images/logo.svg"
-          alt="blogr logo"
-          className="w-20 lg:w-24 lg:basis-24"
-        />
+        <img src={logo} alt="blogr logo" className="w-20 lg:w-24 lg:basis-24" />
         <div ref={menuRef} className="lg:flex-1">
           {isOpen ? (
             <img
-              src="./src/assets/images/icon-close.svg"
+              src={closeBtn}
               alt=""
               className="h-6 pr-[0.4rem] cursor-pointer lg:hidden"
               onClick={toggleMenu}
             />
           ) : (
             <img
-              src="./src/assets/images/icon-hamburger.svg"
+              src={hamburger}
               alt=""
               className="h-5 cursor-pointer lg:hidden"
               onClick={toggleMenu}
